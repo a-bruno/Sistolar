@@ -42,6 +42,10 @@
 		margin-right: 20px;
 	}
 
+		.sol {
+			cursor: no-drop !important;
+		}
+
 		.blockSolarSys li:last-child {
 			margin-right: 0;
 		}
@@ -61,12 +65,54 @@
 
 	.blockContents-wrapT {
 		display: flex;
-	    justify-content: center;
+	    justify-content: flex-start;
 	    align-items: center;
 	    flex-flow: column;
-		background: #CCC;
-		color: red;
+		/*background: #CCC;*/
+		color: #FFF;
 		height: 100%;
+	    padding: 20px;
+	    overflow: hidden;
 		text-transform: capitalize;
-		width: 100%;
+		width: 600px;
 	}
+
+		.titulo {
+			margin-bottom: 10px;
+			text-transform: uppercase;
+		}
+
+		.descricoes {
+			height: 260px;
+    		overflow: hidden;
+		}	
+
+			.descricoes p {
+				text-indent: 30px;
+			}
+
+
+		.bullets {
+			display: flex;
+		}
+
+			.bull-item {
+			    border-radius: 50%;
+			    background: #FFF;
+			    color: #000;
+			    cursor: pointer;
+			    line-height: 20px;
+			    height: 20px;
+			    margin-right: 8px;
+			    text-align: center;
+				width: 20px;
+			}
+
+				.bull-item:last-child {
+					margin-right: 0;
+				}
+
+				.bull-item.active {
+					background: red;
+					color: #FFF;	
+				}

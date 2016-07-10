@@ -9,6 +9,7 @@
 
 		"mercurio": {
 			"id": 1,
+			"bullets": 2,
 			"infos": {
 				"str1": "Mercúrio é o planeta mais próximo do Sol. Seu nome latino corresponde ao do deus grego Hermes, filho de Zeus. Bastante pequeno, é o segundo menor entre todos os planetas. Sua superfície está coberta por cratéras resultantes do impacto de corpos menores. Por esse motivo, supõe-se que a atividade vulcânica tenha ocorrido apenas no início, até cerca de 1/4 da sua idade atual. Caso houvesse atividade recente, o derramamento de lava cobriria e apagaria as cratéras. Das inúmeras cratéras existentes, destaca-se a Bacia Caloris, com 1.300 quilômetros de diâmetro, quase 1/3 do diâmetro do planeta. ",
 				"str2": "Supeita-se que Mercúrio possua uma atmosfera muito tênue, quase desprezível, por isso existe uma incrível variação da temperatura entre o dia e a noite: de –170 graus (lado oculto do Sol) a +430 graus centígrados (lado iluminado pelo Sol). Compare com a Terra, onde a variação é de poucas dezenas de graus. Sua órbita é altamente excêntrica, só Plutão o supera nesse aspecto."
@@ -19,6 +20,7 @@
 
 		"venus": {
 			"id": 2,
+			"bullets": 4,
 			"infos": {
 				"str1": "Vênus é o nome latino da deusa grega do amor, Afrodite. Facilmente identificável no céu, esse planeta é também chamado de Estrela D'Alva ou Estrela Matutina. É o mais brilhante dos planetas e está sempre próximo ao Sol, como Mercúrio, pois suas órbitas são internas à da Terra. Enquanto Mercúrio é bastante pequeno (2/5 da Terra), Vênus já possui um tamanho comparável ao da Terra. Aliás, esse planeta é bastante parecido com o nosso, em massa e composição química. Apesar dessas similaridades, entretanto, sua atmosfera é bastante diferente da terrestre.",
 				"str2": "A atmosfera de Vênus é bastante espessa e reflete a maior parte da luz solar incidente. Essa é a razão do seu grande brilho. Sua atmosfera também impede a observação direta da superfície do planeta. O raio de Vênus somente pode ser determinado com o uso de radares ou de sondas espaciais. Por ter um tamanho relativamente grande, seu manto é convectivo, pois não consegue dissipar o calor interno por condução, como acontece com Mercúrio (veja o quadro sobre as formas de transporte de energia). A convecção levou gases para a superfície, de modo a formar uma atmosfera composta basicamente por gás carbônico, CO2 - quase 97 % - e gás nitrogênio, N2 - 3 %.",
@@ -31,6 +33,7 @@
 
 		"terra": {
 			"id": 3,
+			"bullets": 4,
 			"infos": {
 				"str1": "Terra é o nome da deusa romana esposa do Céu. Como já vimos, o planeta em que vivemos era considerado até o Renascimento como em posição privilegiada, em torno da qual o Universo existia. Com o avanço do nosso conhecimento, a Terra deixou de ocupar um lugar especial e passou a ser apenas mais um dos planetas de uma estrela comum, o Sol. Porém, ainda hoje é considerada particular pela existência e complexidade da vida em sua superfície. A temperatura na Terra é tal que permite que a água exista no estado líquido*. Aliás, o nosso planeta deveria ser chamado de planeta Água e não Terra, pois 3/4 de sua superfície são cobertos pela água.",
 				"str2": "Apenas para se ter uma idéia da quantidade de água dos oceanos, se a superfície do planeta se aplainasse, o planeta seria coberto por um oceano de 400m de profundidade. A água é um dos fatores essenciais que levou à existência da vida. A atmosfera terrestre é formada basicamente por nitrogênio (78 %), que faz com que o nosso planeta seja azul quando visto de fora. Existem, porém, outros gases. Entre eles devemos salientar o oxigênio (20 %) e o ozônio, que bloqueiam a radiação ultravioleta do Sol, que é fatal para alguns microorganismos e prejudicial para os seres vivos em geral. O oxigênio da atmosfera terrestre é basicamente produzido pelas plantas, por meio da fotossíntese.",
@@ -43,6 +46,7 @@
 
 		"marte": {
 			"id": 4,
+			"bullets": 3,
 			"infos": {
 				"str1": "Marte é o planeta telúrico mais distante do Sol. Seu nome refere-se ao deus latino da guerra, cujo correspondente grego é Ares. Possui uma atmosfera tênue, cujo componente principal é o gás carbônico (95 %). Sua cor avermelhada é devida à poeira de óxido de ferro (ferrugem) que cobre parcialmente a sua superfície. Parte desta é recoberta por lava solidificada, formando grandes planícies. Mas existem também cratéras de impacto e montanhas. A maior montanha do Sistema Solar está em Marte. É o monte Olimpo, um vulcão extinto, que possui 25 km da base ao topo.",
 				"str2": "Devem ter ocorrido processos de convecção em algum momento do passado, mas como Marte é um planeta pequeno, esses processos cessaram e atualmente seu calor é dissipado por condução. A temperatura na superfície oscila entre -90 e 30 graus centígrados. Marte possui dois satélites, Fobos e Deimos (em grego, Medo e Terror), cujos nomes representam os dois filhos do deus da guerra, Ares, na mitologia grega. Esses satélites são pequenos, da ordem de 10 quilômetros de raio, e possuem forma irregular, como a de uma batata. São provavelmente asteróides capturados pela gravidade do planeta.",
@@ -54,6 +58,7 @@
 
 		"jupiter": {
 			"id": 5,
+			"bullets": 4,
 			"infos": {
 				"str1": "Júpiter é o maior planeta do Sistema Solar, sendo seu raio cerca de 11 vezes maior que o da Terra. É o protótipo dos planetas jovianos, os gigantes gasosos. Coincidentemente, o seu nome latino corresponde em grego a Zeus, o maior dos deuses do Olimpo. Apesar de possuir, provavelmente, um núcleo formado por materiais pesados, ele é composto, basicamente, por hidrogênio e hélio na forma gasosa. Assim, Júpiter, como os demais planetas jovianos, não possui uma superfície sólida como os planetas terrestres. Sua atmosfera é também formada por hidrogênio e hélio. Ela é bastante espessa e determina a aparência do planeta.",
 				"str2": "A imagem de Júpiter mostra uma série de bandas coloridas paralelas ao seu equador, que correspondem a nuvens de diferentes movimentos, temperatura e composição química. Uma estrutura bastante interessante é a chamada Grande Mancha Vermelha. Como as bandas, ela também corresponde a um fenômeno meteorológico, por assim dizer. Ela é muito grande (10.000 x 25.000 quilômetros), muito maior que a Terra, por exemplo. É uma estrutura bastante estável, no sentido de que persiste há muito tempo.",
@@ -66,6 +71,7 @@
 
 		"saturno": {
 			"id": 6,
+			"bullets": 3,
 			"infos": {
 				"str1": "O nome desse planeta vem do deus romano que ensinou aos homens a agricultura, e é por alguns associado ao deus grego Cronus. Saturno é o segundo maior planeta do Sistema Solar. É similar a Júpiter em vários aspectos, como na estrutura interna e atmosfera. Também possui bandas atmosféricas que, porém, são menos contrastantes entre si que as de Júpiter. Também como Júpiter, possui uma pequena fonte de calor interna. Saturno possui um belo sistema de anéis que é visível mesmo através de uma pequena luneta. Dizemos um sistema, pois o disco que vemos em torno de Saturno corresponde a, pelo menos, sete anéis.",
 				"str2": "Os anéis são compostos por partículas de gelo e poeira, cujos tamanhos vão desde um milésimo de milímetro até dezenas de metros. Apesar de sua grande extensão - o raio externo fica a 480 000 quilômetros do centro de Saturno - os anéis são extremamente finos, da ordem de duzentos metros. Para se ter uma ideia dessa proporção, basta imaginar um disco do tamanho de um quarteirão, com uma espessura de aproximadamente um centésimo de milímetro. Enquanto os anéis de Saturno são conhecidos há bastante tempo, os anéis dos demais planetas jovianos só foram descobertos na década de 70.",
@@ -77,6 +83,7 @@
 
 		"urano": {
 			"id": 7,
+			"bullets": 2,
 			"infos": {
 				"str1": "Historicamente Urano é diferente, pois ele foi o primeiro dos planetas a ser descoberto na era moderna, em 1781, pelo astrônomo inglês de origem alemã William Herschel. Urano, cujo nome refere-se ao deus grego que personifica o céu, deve possuir um núcleo rochoso similar ao da Terra, recoberto por um manto de gelo. Assim, ele é diferente de Júpiter e Saturno na estrutura interna. Sua atmosfera é composta basicamente por hidrogênio e hélio, mas contém também um pouco de metano. Possui faixas atmosféricas, como os demais planetas jovianos.",
 				"str2": "Urano possui uma anomalia no que tange ao seu eixo de rotação, que está muito próximo do plano orbital, isto é, o seu eixo é praticamente perpendicular ao dos demais planetas. Supõe-se que isso se deva ao efeito de um grande impacto com outro corpo. Como Saturno e Jupiter, Urano possui um sistema de anéis, que são observados de frente e não lateralmente como os de Saturno, por exemplo. Urano possui 27 satélites conhecidos, todos compostos principalmente por gelo.  Dentre suas maiores luas, a mais próxima de Urano é Miranda. Esta possui um relevo bastante particular, formado por vales e despenhadeiros."
@@ -87,6 +94,7 @@
 
 		"netuno": {
 			"id": 8,
+			"bullets": 2,
 			"infos": {
 				"str1": "Logo após a descoberta de Urano, foi notado que os cálculos matemáticos não reproduziam com exatidão a sua órbita. Foi então sugerido que existiria um outro planeta, cuja influência gravitacional era a responsável pelos desvios de sua órbita. Em 1845, o jovem matemático inglês John C. Adams e pouco depois o astrônomo francês Urbain Le Verrier previram a existência de Netuno, que foi, então, observado pelos astrônomos alemães Johann G. Galle e H. L. d’Arrest, em 1846. O fato de que Netuno não foi descoberto, mas sim previsto, é considerada uma grande vitória da gravitação Newtoniana.",
 				"str2": "Netuno é o nome latino de Possêidon, o deus grego dos mares. Possui uma estrutura interna muito similar a de Urano, sendo formado por rochas e gelo. Apresenta uma atmosfera espessa com bandas atmosféricas. Possui 13 satélites e um sistema de anéis. Dentre seus satélites, destaca-se Tritão - satélite ativo que possui vulcões de gelo. Dentre todos os corpos do Sistema Solar, a atividade vulcânica só está presente na Terra, Vênus, Io e Tritão."
@@ -97,6 +105,7 @@
 
 		"plutao": {
 			"id": 9,
+			"bullets": 2,
 			"infos": {
 				"str1": "Plutão - o último dos planetas do Sistema Solar - foi descoberto em 1930, pelo americano Clyde Tonbaugh. Plutão, na mitologia, é o deus romano do mundo dos mortos, conhecido como Hades pelos gregos. Sua órbita é tão excêntrica, que sua distância ao Sol pode variar em 40%. Devido a isso, sua órbita e a de Netuno se interceptam, de modo que em algumas situações Netuno passa a ser o planeta mais afastado do Sol. Plutão é o menor dos planetas, sendo menor até que a nossa Lua. Sua distância e tamanho tornam sua observação bastante difícil, assim, algumas das informações que temos sobre esse planeta são ainda incertas.",
 				"str2": "Deve ser composto de rochas (70 %) e gelo de compostos orgânicos (30 %). Parece apresentar uma pequena atmosfera de nitrogênio, monóxido de carbono e metano (CH4). Plutão possui três satélite, Caronte (nome do barqueiro que, na mitologia grega, atravessa o rio levando as almas para o Hades), Nix e Hidra. Descoberto apenas em 1978, Caronte é um pequeno satélite de composição e tamanho comparáveis ao de Plutão: o raio de Caronte é aproximadamente a metade do de Plutão. Assim, pode-se considerar que eles formam um sistema duplo de planetas. Nix e Hidra foram descobertos em uma série de fotografias no ano de 2005."

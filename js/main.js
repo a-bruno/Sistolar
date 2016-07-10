@@ -3,24 +3,25 @@ $(document).ready(function() {
 
 	var json = $.getJSON("js/data-planets.json", function(data) {
 
+		var aux = null;
+
 		$.each(data['planets'], function(key, value){
 			spacePopulation(key, value);
 
 			if(key == 'plutao') return false;		
 		});
 
-		$('.blockSolarSys li').hover(function(e) {
+		$('.blockSolarSys li').click(function(e) {
 
 			var keyClass = $(this).attr('class');			
 			
 			$.each(data['planets'], function(key, value){
 
 				if(key == keyClass && key != 'sol') {
-					
-					$('.img-planet').attr('src', value.urlImg2);	
-					$('.titulo').text(key);
 
-					//$('.blockContents').append($('<p/>').text(value.infos['str1']));
+					aux = key;
+
+					showInformation(key, value);
 
 					return false;
 				}	
@@ -29,8 +30,23 @@ $(document).ready(function() {
 
 		});
 
-
 	});
+
+	function showInformation(chave, valor) {
+		$('.descricoes').find('p').remove();
+		$('.bullets').find('li').remove();
+		
+		$('.img-planet').attr('src', valor.urlImg2);	
+		$('.titulo').text(chave);
+
+		$('.descricoes').append($('<p/>').addClass('texto').text(valor.infos['str1']));
+
+		for(var k = 0; k < valor.bullets; k++) {
+			$('.bullets').append($('<li/>').addClass('bull-item').text(''+(k+1)+''));
+		}
+
+		$('.bullets li:first-child').addClass('active');
+	}
 
 	function spacePopulation(chave, valor) {
 		$('.blockSolarSys').append($('<li/>').addClass(''+chave+'').append($('<img/>').attr('src', valor.urlImg)));
