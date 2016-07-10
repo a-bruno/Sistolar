@@ -9,14 +9,19 @@ $(document).ready(function() {
 			if(key == 'plutao') return false;		
 		});
 
-		$('.sistemaSolar li').hover(function(e) {
+		$('.blockSolarSys li').hover(function(e) {
 
 			var keyClass = $(this).attr('class');			
 			
 			$.each(data['planets'], function(key, value){
 
 				if(key == keyClass && key != 'sol') {
+					
 					$('.img-planet').attr('src', value.urlImg2);	
+					$('.titulo').text(key);
+
+					//$('.blockContents').append($('<p/>').text(value.infos['str1']));
+
 					return false;
 				}	
 
@@ -28,7 +33,7 @@ $(document).ready(function() {
 	});
 
 	function spacePopulation(chave, valor) {
-		$('.sistemaSolar').append($('<li/>').addClass(''+chave+'').append($('<img/>').attr('src', valor.urlImg)));
+		$('.blockSolarSys').append($('<li/>').addClass(''+chave+'').append($('<img/>').attr('src', valor.urlImg)));
 	}
 
 });
