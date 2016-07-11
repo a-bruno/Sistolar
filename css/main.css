@@ -90,6 +90,7 @@
 			.descricoes p {
 				line-height: 23px;
 				text-indent: 30px;
+				text-transform: none;
 			}
 
 
