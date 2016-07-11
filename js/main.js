@@ -46,10 +46,20 @@ $(document).ready(function() {
 		}
 
 		$('.bullets li:first-child').addClass('active');
+
+		bulletsItemClick(chave, valor);
 	}
 
 	function spacePopulation(chave, valor) {
 		$('.blockSolarSys').append($('<li/>').addClass(''+chave+'').append($('<img/>').attr('src', valor.urlImg)));
+	}
+
+	function bulletsItemClick(chave, valor) {
+		$('.bull-item').click(function() {
+			$('.bull-item').removeClass('active');
+			$('.descricoes p').text(valor.infos['str'+ $(this).text() +'']);			
+			$(this).addClass('active');
+		});
 	}
 
 });
