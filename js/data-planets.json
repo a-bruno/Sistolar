@@ -3,7 +3,7 @@
 	"planets": {
 
 		"sol": {
-			"id": 1,
+			"id": 0,
 			"urlImg": "img/star/sun.png"
 		},
 
