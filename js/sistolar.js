@@ -1,11 +1,11 @@
 
-jQuery.fn.planetsBuilder = function() {
+jQuery.fn.sistolar = function() {
 
 	that = this;	
 
 	this.init = function() {
 
-		var json = $.getJSON("js/config-pb.json", function(data) {
+		var json = $.getJSON("js/config-sistolar.json", function(data) {
 
 			var aux = null;
 
