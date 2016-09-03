@@ -10,7 +10,7 @@ jQuery.fn.sistolar = function() {
 			var aux = null;
 
 			$.each(data['planets'], function(key, value){
-				that.spacePopulation(key, value);
+				that.preencherEspaco(key, value);
 
 				if(key == 'plutao') return false;		
 			});
@@ -25,7 +25,7 @@ jQuery.fn.sistolar = function() {
 
 						aux = key;
 
-						that.showInformation(key, value);
+						that.mostrarInformacoes(key, value);
 
 						return false;
 					}	
@@ -38,11 +38,11 @@ jQuery.fn.sistolar = function() {
 
 	}
 
-	this.spacePopulation = function(key, value) {
+	this.preencherEspaco = function(key, value) {
 		$(that.find('.lis-planetas')).append($('<li/>').addClass(''+ key +'').append($('<img/>').attr('src', value.urlImg))).show(2000);
 	}
 
-	this.showInformation = function(key, value) {
+	this.mostrarInformacoes = function(key, value) {
 		$(that.find('.informacoes')).find('p').remove();
 		$(that.find('.bullets')).find('li').remove();
 		
@@ -57,10 +57,10 @@ jQuery.fn.sistolar = function() {
 
 		$(that.find('.bullets li:first-child')).addClass('active');
 
-		this.bulletsItemClick(value);	
+		this.bolinhasClicaveis(value);	
 	}
 
-	this.bulletsItemClick = function(value) {
+	this.bolinhasClicaveis = function(value) {
 		$(that.find('.bull-item')).click(function() {
 			$('.bull-item').removeClass('active');
 
