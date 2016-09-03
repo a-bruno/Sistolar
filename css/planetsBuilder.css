@@ -20,14 +20,14 @@
 	font-style: normal;
 }
 
-.container {
+.planetsbuilder-wrap {
 	background: url(../img/bg/bg_2.png) no-repeat;
 	height: 600px;
 	margin: 0 auto;
 	width: 960px;
 }
 
-.blockSolarSys {
+.lis-planetas {
 	display: flex;
     flex-flow: row;
     justify-content: flex-start;
@@ -37,7 +37,7 @@
 	width: 100%;
 }
 
-	.blockSolarSys li {
+	.lis-planetas li {
 		cursor: pointer;
 		margin-right: 20px;
 	}
@@ -46,11 +46,11 @@
 			cursor: no-drop !important;
 		}
 
-		.blockSolarSys li:last-child {
+		.lis-planetas li:last-child {
 			margin-right: 0;
 		}
 
-.blockContents {
+.lis-planetas--apres {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -59,11 +59,11 @@
 	width: 100%;
 }
 
-	.img-planet {
+	.lis-planetas--img {
 		margin-right: 20px;
 	}
 
-	.blockContents-wrapT {
+	.lis-planetas--wrap {
 		display: flex;
 	    justify-content: flex-start;
 	    align-items: center;
@@ -82,12 +82,12 @@
 			text-transform: uppercase;
 		}
 
-		.descricoes {
+		.informacoes {
 			height: 260px;
     		overflow: hidden;
 		}	
 
-			.descricoes p {
+			.informacoes p {
 				line-height: 23px;
 				text-indent: 30px;
 				text-transform: none;

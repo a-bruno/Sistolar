@@ -1,29 +1,33 @@
 <html>
+
 	<head>
 
 		<title>Solar System - JSON</title>
 		<meta charset="utf-8">
 
 		<link rel='shortcut icon' type='image/x-icon' href='img/favicon.png' />
-		<link rel="stylesheet" href="css/main.css">	
+		<link rel="stylesheet" href="css/planetsBuilder.css">	
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/planetsBuilder.js"></script>
 
 	</head>
 
 	<body>
 
-		<div class="container">
+		<div class="planetsbuilder-wrap">
 			
-			<ul class="blockSolarSys"></ul>
+			<ul class="lis-planetas"></ul>
 
-			<div class="blockContents">
+			<div class="lis-planetas--apres">
 
-				<img class="img-planet" src=""/>
+				<img class="lis-planetas--img" src=""/>
 
-				<div class="blockContents-wrapT">
+				<div class="lis-planetas--wrap">
 
 					<h3 class="titulo"></h3>
 
-					<div class="descricoes"></div>	
+					<div class="informacoes"></div>	
 
 					<ul class="bullets"></ul>
 
@@ -32,10 +36,13 @@
 			</div>
 				
 		</div>
-
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
 		
 	</body>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('body').planetsBuilder();
+		});
+	</script>
 
 </html>
